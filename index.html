@@ -17,7 +17,7 @@
 
 <body>
   <header class="container-fluid bg-danger text-light">
-    <h1>ICE CREAM SHOP</h1>
+    <h1>ICE CREAM SHOP <i class="mdi mdi-ice-cream"></i></h1>
   </header>
   <main class="container-fluid">
     <section class="row">
@@ -40,57 +40,54 @@
       </div>
       <div class="col-7 text-center">
         <section class="row">
-          <div class="col p-4">
-            <div class="card p-4 bg-danger text-light">
-              <img class="card-img"
-                src="https://plus.unsplash.com/premium_photo-1671559020847-6793cbee18b0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y29va2llJTIwZG91Z2glMjBpY2UlMjBjcmVhbXxlbnwwfHwwfHx8MA%3D%3D"
-                alt="">
-              <p>Cookie Dough</p>
-              <b>$1.25</b>
-              <button onclick="addItem(0)" class="btn btn-bg">Add to <i class="mdi mdi-cart-outline"></i></button>
-            </div>
-            <div class="card p-4 bg-danger text-light">
-              <img class="card-img"
-                src="https://images.unsplash.com/photo-1691431619953-06a2c4220cfe?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDZ8fHZhbmlsbGElMjBpY2UlMjBjcmVhbXxlbnwwfHwwfHx8MA%3D%3D"
-                alt="">
-              <p>Vanilla</p>
-              <b>$1.00</b>
-              <button onclick="addItem(1)" class="btn btn-bg">Add to <i class="mdi mdi-cart-outline"></i></button>
-            </div>
-            <div class="card p-4 bg-danger text-light">
-              <img class="card-img"
-                src="https://images.unsplash.com/photo-1532678465554-94846274c297?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c3RyYXdiZXJyeSUyMGljZSUyMGNyZWFtfGVufDB8fDB8fHww"
-                alt="">
-              <p>Strawberry</p>
-              <b>$1.25</b>
-              <button onclick="addItem(2)" class="btn btn-bg">Add to <i class="mdi mdi-cart-outline"></i></button>
-            </div>
+          <div class="card m-4 bg-danger text-light col-5 p-4 shadow">
+            <img class="card-img"
+              src="https://plus.unsplash.com/premium_photo-1671559020847-6793cbee18b0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y29va2llJTIwZG91Z2glMjBpY2UlMjBjcmVhbXxlbnwwfHwwfHx8MA%3D%3D"
+              alt="">
+            <p>Cookie Dough</p>
+            <b>$1.25</b>
+            <button onclick="addItem(0)" class="btn btn-bg">Add to <i class="mdi mdi-cart-outline"></i></button>
           </div>
-          <div class="col p-4">
-            <div class="card p-4 bg-danger">
-              <img class="card-img"
-                src="https://plus.unsplash.com/premium_photo-1663839412090-27840de8cba0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c3ByaW5rbGVzfGVufDB8fDB8fHww"
-                alt="">
-              <p>Sprinkles</p>
-              <b>$0.25</b>
-              <button onclick="addItem(3)" class="btn btn-bg">Add to <i class="mdi mdi-cart-outline"></i></button>
-            </div>
-            <div class="card p-4 bg-danger text-light">
-              <img class="card-img"
-                src="https://plus.unsplash.com/premium_photo-1726072358526-542e07d58e36?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2hvY29sYXRlJTIwY2hpcHN8ZW58MHx8MHx8fDA%3D"
-                alt="">
-              <p>Chocolate Chips</p>
-              <b>$0.25</b>
-              <button onclick="addItem(4)" class="btn btn-bg">Add to <i class="mdi mdi-cart-outline"></i></button>
-            </div>
-            <div class="card p-4 bg-danger text-light">
-              <img class="card-img"
-                src="https://images.unsplash.com/photo-1590080874088-eec64895b423?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y29va2llJTIwY2h1bmtzfGVufDB8fDB8fHww"
-                alt="">
-              <p>Cookie Chunks</p>
-              <b>$0.50</b>
-              <button onclick="addItem(5)" class="btn btn-bg">Add to <i class="mdi mdi-cart-outline"></i></button>
-            </div>
+          <div class="card m-4 bg-danger text-light col-5 p-4 shadow">
+            <img class="card-img"
+              src="https://images.unsplash.com/photo-1691431619953-06a2c4220cfe?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDZ8fHZhbmlsbGElMjBpY2UlMjBjcmVhbXxlbnwwfHwwfHx8MA%3D%3D"
+              alt="">
+            <p>Vanilla</p>
+            <b>$1.00</b>
+            <button onclick="addItem(1)" class="btn btn-bg">Add to <i class="mdi mdi-cart-outline"></i></button>
+          </div>
+          <div class="card m-4 bg-danger text-light col-5 p-4 shadow">
+            <img class="card-img"
+              src="https://images.unsplash.com/photo-1532678465554-94846274c297?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c3RyYXdiZXJyeSUyMGljZSUyMGNyZWFtfGVufDB8fDB8fHww"
+              alt="">
+            <p>Strawberry</p>
+            <b>$1.25</b>
+            <button onclick="addItem(2)" class="btn btn-bg">Add to <i class="mdi mdi-cart-outline"></i></button>
+          </div>
+
+          <div class="card m-4 bg-danger col-5 text-light p-4 shadow">
+            <img class="card-img"
+              src="https://plus.unsplash.com/premium_photo-1663839412090-27840de8cba0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c3ByaW5rbGVzfGVufDB8fDB8fHww"
+              alt="">
+            <p>Sprinkles</p>
+            <b>$0.25</b>
+            <button onclick="addItem(3)" class="btn btn-bg">Add to <i class="mdi mdi-cart-outline"></i></button>
+          </div>
+          <div class="card m-4 bg-danger text-light col-5 p-4 shadow">
+            <img class="card-img"
+              src="https://plus.unsplash.com/premium_photo-1726072358526-542e07d58e36?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2hvY29sYXRlJTIwY2hpcHN8ZW58MHx8MHx8fDA%3D"
+              alt="">
+            <p>Chocolate Chips</p>
+            <b>$0.25</b>
+            <button onclick="addItem(4)" class="btn btn-bg">Add to <i class="mdi mdi-cart-outline"></i></button>
+          </div>
+          <div class="card m-4 bg-danger text-light col-5 p-4 shadow">
+            <img class="card-img"
+              src="https://images.unsplash.com/photo-1590080874088-eec64895b423?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y29va2llJTIwY2h1bmtzfGVufDB8fDB8fHww"
+              alt="">
+            <p>Cookie Chunks</p>
+            <b>$0.50</b>
+            <button onclick="addItem(5)" class="btn btn-bg">Add to <i class="mdi mdi-cart-outline"></i></button>
           </div>
         </section>
       </div>
