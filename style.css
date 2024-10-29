@@ -1,4 +1,9 @@
 .card img {
-  height: 15em;
+  height: 13em;
   object-fit: cover;
+}
+
+.btn-bg {
+  background-color: #a2fcfa;
+
 }
